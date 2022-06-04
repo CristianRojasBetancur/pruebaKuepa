@@ -1,0 +1,73 @@
+/* DEAFULT STYLES */
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* MY App.css STYLES */
+
+.main {
+  display: flex;
+  width: 100%;
+}
+
+.content {
+  background-color: #f5f8fa;
+  width: 100%;
+  height: 100vh;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 30px !important;
+  padding-right: 180px !important;
+}
+
+
+
+.agenda {
+  max-height: 300px !important;
+  display: flex;
+}
+
+.conexionesHoy {
+  align-self: center;
+}
+
+.planHoy span {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.planHoy .text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.barraLateral {
+  position: relative;
+  width: 150px;
+  height: 100vh;
+  background-color: #2b2e43;
+  position: absolute;
+  right: 0;
+  top: 0%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.barraInterna {
+  position: absolute;
+  width: 6px;
+  height: 30%;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-left: 20px !important;
+}
